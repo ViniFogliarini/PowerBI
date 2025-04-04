@@ -1,0 +1,2 @@
+l_site = CALCULATE(COUNTROWS('Todos os contatos'),FILTER('Todos os contatos','Todos os contatos'[Origem do lead] = "Site"))
+
