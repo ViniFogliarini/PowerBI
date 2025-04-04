@@ -1,0 +1,8 @@
+%_Pago = 
+DIVIDE(
+    SUM(Tabela[Pago]), 
+    SUM(Tabela[Pago]) + SUM(Tabela[A_Pagar]), 
+    0
+) * 100
+
+Lógica: Dividimos o valor que queremos achar a porcentagem pelo total, no caso a soma do que foi pago e o que está para ser pago ainda. 
